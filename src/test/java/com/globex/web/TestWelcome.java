@@ -36,7 +36,7 @@ public class TestWelcome {
 
     @Test
     public void testWelcome() throws Exception {
-        // Add tests 
+        // Add tests for verification
         this.mockMvc.perform(
                 get("/"))
                 .andDo(print())
