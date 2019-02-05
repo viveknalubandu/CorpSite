@@ -36,7 +36,7 @@ public class TestWelcome {
 
     @Test
     public void testWelcome() throws Exception {
-        // Add tests for verification
+        // Add tests for verification. Callling forward jsp URL
         this.mockMvc.perform(
                 get("/"))
                 .andDo(print())
